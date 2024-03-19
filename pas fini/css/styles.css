@@ -1,0 +1,66 @@
+body
+{
+    background-image: url("../images/fond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header
+{
+    text-align: center;  
+}
+ 
+
+#img-header {
+  width: 50%;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 20px;      
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav
+{
+    background-color: gray;
+}
+
+main
+{
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  background-color: #fff; 
+}
+
+article::first-letter
+{
+    font-size: 30px;
+    color: red;
+    line-height: 10px;
+}
+
+article
+{
+  padding: 20px;
+}
+
+#catalogue
+{
+    color: #000;
+}
+ 
+footer
+{
+    text-align: center;
+    margin: 20px;
+}
